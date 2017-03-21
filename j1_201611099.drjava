@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" main="" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="src/headfirst/strategy1/MallardDuck.java" package="headfirst.strategy1" timestamp="21-Mar-2017 18:39:29">
+        <select from="246" to="246"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/headfirst/strategy1/Duck.java" package="headfirst.strategy1" timestamp="21-Mar-2017 18:35:09">
+        <select from="246" to="246"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/headfirst/strategy1/FlyBehavior.java" package="headfirst.strategy1" timestamp="21-Mar-2017 18:38:33">
+        <select from="246" to="246"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/headfirst/strategy1/FlyRocketPowered.java" package="headfirst.strategy1" timestamp="21-Mar-2017 18:38:38">
+        <select from="246" to="246"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/headfirst/strategy1/MiniDuckSimulator1.java" package="headfirst.strategy1" timestamp="21-Mar-2017 18:39:48">
+        <select from="246" to="246"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/headfirst/strategy1/Quack.java" package="headfirst.strategy1" timestamp="21-Mar-2017 18:40:01">
+        <select from="246" to="246"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/headfirst/strategy1/QuackBehavior.java" package="headfirst.strategy1" timestamp="21-Mar-2017 18:40:16">
+        <select from="246" to="246"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/headfirst/strategy1/FIyWithWings.java" package="headfirst.strategy1" timestamp="21-Mar-2017 18:50:33">
+        <select from="246" to="246"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="classes/headfirst/strategy1/"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
