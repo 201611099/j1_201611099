@@ -2,7 +2,7 @@ package com.sd.sort.v2;
 import java.util.Date;
 import com.sd.turtle.WeightTurtle;
 
-class StringComparator implements Comparator {
+public class StringComparator implements Comparator {
     public StringComparator() {}
     public int compare(Object o1, Object o2) {
         String s1=(String)o1;
