@@ -1,18 +1,22 @@
 package com.sd.gui;
 
-import java.awt.*;
-import javax.swing.*;
+import java.awt.GridLayout;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import javax.swing.JTextField;
+import javax.swing.JPanel;
 public class CalcAreaGUIMain {
   public static void main(String[] args) {
     JFrame f=new JFrame();
     JPanel panel=new JPanel(new GridLayout(3,2));
     f.getContentPane().add(panel);
-    JLabel label1=new JLabel("¹İÁö¸§");
-    JLabel label2=new JLabel("¸éÀû");
+    JLabel label1=new JLabel("Â¹ÃÃÃ¶Â¸Â§");
+    JLabel label2=new JLabel("Â¸Ã©Ã€Ã»");
     JTextField radiusTf1=new JTextField(20);
     JTextField areaTf2=new JTextField(20);
-    JButton b1=new JButton("°è»ê");
-    JButton b2=new JButton("Ãë¼Ò");
+    JButton b1=new JButton("Â°Ã¨Â»Ãª");
+    JButton b2=new JButton("ÃƒÃ«Â¼Ã’");
     b1.addActionListener(new CalcAreaListener()); 
     panel.add(label1);
     panel.add(radiusTf1);
