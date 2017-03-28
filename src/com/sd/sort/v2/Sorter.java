@@ -2,7 +2,7 @@ package com.sd.sort.v2;
 import java.util.Date;
 import com.sd.turtle.WeightTurtle;
 
-class Sorter {
+public class Sorter {
   public Sorter() {}
     public static void sort(Object[] data, Comparator comp) {
         for(int i=data.length-1; i>=1; i--) {
