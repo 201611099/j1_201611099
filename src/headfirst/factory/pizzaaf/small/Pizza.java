@@ -19,13 +19,13 @@ public abstract class Pizza {
     }
   }*/
   protected abstract void prepare();
-  void bake() {
+  public void bake() {
     System.out.println("Bake for 25 minutes at 350");
   }
-  void cut() {
+  public void cut() {
     System.out.println("Cutting the pizza into diagonal slices");
   }
-  void box() {
+  public void box() {
     System.out.println("Place pizza in official PizzaStore box");
   }
   public String getName() {
