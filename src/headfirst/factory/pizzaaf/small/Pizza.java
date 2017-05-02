@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public abstract class Pizza {
   String name;
   //String dough;
-  Dough dough;  //class·Î ¹Ù²ãÁÜ
+  Dough dough;  //classÂ·Ã Â¹Ã™Â²Ã£ÃÃœ
   String sauce;
   Cheese cheese;
   ArrayList<String> toppings = new ArrayList<String>();
@@ -18,7 +18,7 @@ public abstract class Pizza {
       System.out.println("   " + toppings.get(i));
     }
   }*/
-  abstract void prepare();
+  protected abstract void prepare();
   void bake() {
     System.out.println("Bake for 25 minutes at 350");
   }
