@@ -11,7 +11,8 @@ public class CheesePizza extends Pizza{
     //sauce = "Marinara Pizza Sauce";
     //toppings.add("Grated Reggiano Cheese");
   }
-  void prepare(){
+  public void prepare(){
+    System.out.println("Preparing...");
     dough = inFac.createDough();
     cheese = inFac.createCheese();
   }
