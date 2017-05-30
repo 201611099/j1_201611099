@@ -27,7 +27,7 @@ public class DaoMainV0{
       //String mySql = "CREATE TABLE persons(id int(64) NOT NULL AUTO_INCREMENT,";
       //mySql+="name varchar(255) NOT NULL, address varchar(255) NOT NULL, UNIQUE (id))";
       //String mySql=("INSERT INTO persons(name,address) VALUE('v0-1', '1 Hongji Dong')");
-      String mySql = "select name from persons where id<4 order by id";
+      String mySql="select name from persons where id<4 order by id";
       stmt=conn.createStatement();
       //stmt.execute(mySql);
       rs = stmt.executeQuery(mySql);
